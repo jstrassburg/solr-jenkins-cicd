@@ -3,4 +3,10 @@
 .vagrant/
 logs/
 jenkins_home/.java/fonts/
-jenkins_home/secrets/org.acegisecurity.ui.rememberme.TokenBasedRememberMeServices.mac
+jenkins_home/secrets/
+jenkins_home/queue.xml
+jenkins_home/queue.xml.bak
+builds/
+**/lastStable
+**/lastSuccessful
+**/nextBuildNumber
