@@ -3,3 +3,4 @@
 .vagrant/
 logs/
 jenkins_home/.java/fonts/
+jenkins_home/secrets/org.acegisecurity.ui.rememberme.TokenBasedRememberMeServices.mac
