@@ -1,4 +1,5 @@
 .DS_Store
 *.log*
+.vagrant/
 logs/
 jenkins_home/.java/fonts/
