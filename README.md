@@ -19,5 +19,5 @@ Then browse to Jenkins at [http://localhost:8080/](http://localhost:8080/) and l
 
 To SSH to the Stage/Prod Vagrant Solr instances:
 
-    ssh -p 2222 vagrant@localhost
-    ssh -p 2200 vagrant@localhost
+    ssh -p 2222 vagrant@localhost # stage
+    ssh -p 2200 vagrant@localhost # prod
