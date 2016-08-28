@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.4">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.10">
+    <script>node {
+    stage &quot;build&quot;
+    echo &quot;Hello from build stage!&quot;
+    
+    stage &quot;deploy to stage&quot;
+    echo &quot;Hello from deploy to stage, er, stage!&quot;
+    
+    stage &quot;test&quot;
+    echo &quot;Hello from test stage!&quot;
+    
+    stage &quot;deploy to production&quot;
+    echo &quot;Hello from deploy to production stage!&quot;
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+</flow-definition>
