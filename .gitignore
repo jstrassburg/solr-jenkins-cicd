@@ -10,6 +10,7 @@ jenkins_home/queue.xml
 jenkins_home/queue.xml.bak
 jenkins_home/prod_private_key
 jenkins_home/stage_private_key
+jenkins_home/workspace
 builds/
 **/lastStable
 **/lastSuccessful
