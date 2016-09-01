@@ -8,7 +8,7 @@ Dependencies
 ------------
 * [VirtualBox](http://virtualbox.org/)
 * [Vagrant](http://vagrantup.com/)
-* [Docker](http://docker.com/)
+* [Docker](http://docker.com/) - Docker for OSX's default 2G memory wasn't enough. I bumped to 8G.
 
 
 Getting up and running

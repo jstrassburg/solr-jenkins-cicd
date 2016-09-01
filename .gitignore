@@ -13,6 +13,7 @@ jenkins_home/stage_private_key
 jenkins_home/workspace
 jenkins_home/.ant/
 jenkins_home/.ivy2/
+jenkins_home/.owner
 builds/
 **/lastStable
 **/lastSuccessful
