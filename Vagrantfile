@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure(2) do |config|
-  box = "bento/ubuntu-14.04"
+  box = "canimus/ubuntu-java8"
   
   config.vm.define vm_name = "stage" do |stage|
     stage.vm.hostname = vm_name
