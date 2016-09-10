@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 Vagrant.configure(2) do |config|
-  box = "canimus/ubuntu-java8"
-  
+  box = "bento/ubuntu-14.04"
+
   config.vm.define vm_name = "stage" do |stage|
     stage.vm.hostname = vm_name
     stage.vm.network "forwarded_port", guest: 8983, host: 8983
